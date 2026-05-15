@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'AURA | Premium Digital Marketplace',
   description: 'Premium digital marketplace',
   icons: {
-    icon: '/icon.png',
+    icon: '/icon.png', // The leading slash is important for Vercel
   },
 }
 
