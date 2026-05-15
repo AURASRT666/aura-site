@@ -3,6 +3,13 @@ import { Bebas_Neue, Space_Grotesk, Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 import CinematicLight from "@/components/cinematic-light"
+export const metadata: Metadata = {
+  title: 'AURA | Premium Digital Marketplace',
+  description: 'Premium digital marketplace',
+  icons: {
+    icon: 'icon.png',
+  },
+}
 
 const bebasNeue = Bebas_Neue({
   subsets: ["latin"],
@@ -19,11 +26,6 @@ const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter"
 })
-
-export const metadata: Metadata = {
-  title: 'AURA | Premium Digital Marketplace',
-  description: 'Premium digital marketplace',
-}
 
 export const viewport: Viewport = {
   themeColor: '#050505',
